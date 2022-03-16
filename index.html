@@ -5,24 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 11px; text-align: center; margin-top: 1rem;
+      }
+      
+    .attribution a { color: hsl(228, 45%, 44%); 
+      }
+      
+      body {
+          background-color: hsl(212, 45%, 89%);
+          font-family: 'Outfit', sans-serif;
+                }
+      
+      figure {
+          background-color: white;
+          text-align: center;
+          font-size: 0.938rem;
+          color: hsl(220, 15%, 55%);
+          padding: 1rem 1rem 2rem 1rem;
+          border-radius: 1rem;
+          width: 270px;
+          height: 420px;
+          margin: 0 auto;
+          position: absolute;              
+          top: 50%;    
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%)
+      }
+      
+      figcaption p {
+          padding: 0rem 0.8rem; 
+      }
+      
+      img {
+          border-radius: 1rem;
+      }
+      
+      h1 {
+          color: hsl(218, 44%, 22%);
+          margin: 0.8rem;
+          font-size: 1.3rem;
+      }
+      
+      footer {
+          width: 100%;
+          clear: both;
+          position: fixed;
+          bottom: 0;
+          padding-bottom: 1rem;
+      }
+      
   </style>
 </head>
+    
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  <figure>
+      <img src="images/image-qr-code.png" alt="white-blue QR code" style="width:100%">
+      <figcaption>
+          <h1>Improve your front-end skills by building projects</h1>
+          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </figcaption>
+  </figure>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://www.frontendmentor.io/profile/aeishma">Wiktoria aka @aeishma</a>.
+  </footer>
+    
 </body>
 </html>
