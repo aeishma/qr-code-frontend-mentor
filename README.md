@@ -23,8 +23,8 @@ It is my first project ever made, after 1 month of learning HTML and CSS from al
 
 ### Links
 
-- Solution URL: [Github](https://github.com/aeishma/qr-code-frontend-mentor)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github.com/aeishma/qr-code-frontend-mentor](https://github.com/aeishma/qr-code-frontend-mentor)
+- Live Site URL: [aeishma.github.io/qr-code-frontend-mentor/](https://aeishma.github.io/qr-code-frontend-mentor/)
 
 ## My process
 
